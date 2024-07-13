@@ -1,0 +1,134 @@
+#title{
+    background-color: #dc1032;   
+}
+#grid1{
+  color: #ffffff;
+}
+
+.container{
+    padding: 2% 15% 7%;
+
+}
+.iphone{
+    text-align: center;
+    margin-top: 50px;
+   width: 290px;
+   transform: rotate(25deg);
+   position: absolute;
+   left: 60%;  
+ 
+}
+.palk{
+    font-family: "Montserrat";
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+.navbar{
+    padding-bottom: 4.5rem;
+}
+.nav-item{
+    padding:0 20px;
+
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat";
+}
+.tindog{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.download{
+    margin: 5% 3% 5% 0;
+}
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+.features-box{
+    text-align: center;
+    padding: 5%;
+}
+p{
+    color: #8f8f8f;
+}
+.icon{
+   margin: 1rem;
+}
+#testimonials{
+    text-align: center;
+    background-color:#dc1032;
+    color: white;
+}
+.h2{
+    font-family: "Montserrat";
+   padding: 50px;
+}
+.btn-block{
+  width: 100%;
+}
+.dog{
+    width: 10%;
+    border-radius:40% ;
+    margin: 20px;
+}
+#press{
+    background-color:#dc1032;
+    text-align: center;
+    padding-bottom: 3%;
+
+}
+.press-log{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+.table{
+   padding: 15%;
+}
+.pa{
+    padding-bottom: 39px;
+}
+#pricing{
+    padding: 100px;
+    text-align: center;
+    font-family: "Montserrat";
+
+}
+.pricing-column{
+    padding: 3% 2%;
+}
+#cta{
+    background-color: #dc1032;
+    height: 35%;
+    text-align: center;
+    padding-top:8% ;
+    padding: 7% 15%;
+}
+.last{
+    color: #fff;
+    font-family: "Montserrat";
+    font-size: 40px;
+}
+ #footer{
+    padding: 7% 15%;
+    text-align: center;
+ }
+ .social{
+    margin: 20px 10px;
+ }
+@media (max-width: 768px)  {
+    #title{
+        text-align: center;
+    }
+    .iphone{
+        transform: rotate(0);
+       
+        position: static;
+    }
+}
